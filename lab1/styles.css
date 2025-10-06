@@ -1,0 +1,124 @@
+/* === Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: #ffffff;
+ 
+}
+
+
+#Header-Section {
+  height: 100vh;
+  background: linear-gradient(135deg, #0d1117, #1f2937, #111827);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#Header-Section #content {
+  max-width: 600px;
+}
+
+#name h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  
+}
+
+#name h1:hover {
+  color: #38bdf8;
+}
+
+#title h3 {
+  font-weight: 400;
+  color: #a1a1aa;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+
+hr {
+  width: 80px;
+  border: 1px solid #38bdf8;
+  margin: 15px auto;
+}
+
+/* === Education Section === */
+#Education {
+  padding: 80px 20px;
+  background-color: #111827;
+  text-align: center;
+}
+
+#Education #uni h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#Education #uni h2 {
+  color: #38bdf8;
+  display: inline;
+}
+
+#Education h3 {
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+/* === Skills Section === */
+#skills {
+  background-color: #0f172a;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#skills h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#skills li {
+  background: #1e293b;
+  color: #e5e7eb;
+  padding: 12px 25px;
+  border-radius: 8px;
+ 
+  font-size: 1.1rem;
+}
+
+#skills li:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+/* === Responsive Design ===
+@media (max-width: 768px) {
+  #name h1 {
+    font-size: 2.5rem;
+  }
+
+  #skills ul {
+    flex-direction: column;
+  }
+} */
