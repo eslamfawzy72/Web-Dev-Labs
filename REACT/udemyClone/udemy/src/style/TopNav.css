@@ -1,0 +1,27 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+#search-bar {
+  flex: 1;
+  padding: 8px 12px;
+}
+
+/* Optional button styling */
+.login-btn {
+  padding: 8px 14px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.signup-btn {
+  padding: 8px 14px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

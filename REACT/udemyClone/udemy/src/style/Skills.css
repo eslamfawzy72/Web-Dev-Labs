@@ -1,0 +1,34 @@
+.skills-section {
+  padding: 20px;
+}
+
+/* Flex container for header + cards */
+.skills-header-cards {
+  display: flex;
+  flex-direction: row;   /* row layout */
+  gap: 30px;             /* spacing between text and cards */
+  align-items: flex-start; /* top align */
+  flex-wrap: wrap;        /* wrap on smaller screens */
+}
+
+/* Text section */
+.skills-text {
+  max-width: 300px; /* optional: controls heading width */
+}
+
+.skills-text h1 {
+  margin-bottom: 10px;
+}
+
+.skills-text p {
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* Flex container for the cards */
+.skills-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
